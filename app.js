@@ -80,6 +80,7 @@ button3.style.backgroundImage = 'url(icon-minus.svg)'
     if(e.target.classList.toggle('active')){
 answer4.style.display = 'block';
 button4.style.backgroundImage = 'url(icon-minus.svg)'
+style.container.paddingBottom = '1.5rem';
     }else{
         button4.style.backgroundImage = 'url(icon-plus.svg)'
         answer4.style.display = 'none';
